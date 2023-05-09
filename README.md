@@ -1,7 +1,7 @@
 # Codecamp-2nd-Edition-Fortaleza-dos-CodeMiners
 Detalhes do bootcamp
 Vamos dar start em mais uma história?
-<img src="code2nd.png" light="200px" align="right">
+<img src="code2nd.png" light="100px" align="right">
 A DIO está de volta trazendo a 2ª edição do Codecamp! Dessa vez contando sobre a Fortaleza dos CodeMiners.
 
 Ao longe, avista-se a Grande Montanha, lar dos CodeMiners, uma comunidade habilidosa que escava em busca de recursos valiosos e informações ancestrais. Para ser aceito, é necessário provar sua utilidade no grupo, possuindo destreza com a picareta e habilidade na operação de máquinas pesadas, equipamentos fundamentais para a mineração de dados raros.
