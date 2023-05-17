@@ -1,5 +1,16 @@
 # Codecamp-2nd-Edition-Fortaleza-dos-CodeMiners
-Detalhes do bootcamp
+
+## Premiação
+Bem-vindos(as) ao Ranking!
+
+Premiação:
+
+- 1º lugar: R$2.000 no cartão Swile + Troféu de Campeão;
+- 2º lugar: R$1.000 no cartão Swile + Troféu de Segundo Lugar; 
+- 3º lugar: R$500 no cartão Swile + Troféu de Terceiro Lugar;
+- Até 20º Free: 3 meses de PRO.
+
+## Detalhes do bootcamp
 Vamos dar start em mais uma história?
 <img src="code2nd.png" width="200px" align="right">
 A DIO está de volta trazendo a 2ª edição do Codecamp! Dessa vez contando sobre a Fortaleza dos CodeMiners.
