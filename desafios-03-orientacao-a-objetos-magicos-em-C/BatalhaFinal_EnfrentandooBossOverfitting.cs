@@ -5,37 +5,44 @@
 
 using namespace std;
 
+// Classe FortalezaCodeMiner
 class FortalezaCodeMiner {
 public:
+  // Construtor que recebe um vetor de equipamentos e o armazena na variável equipamentos_
   FortalezaCodeMiner(const vector<int>& equipamentos) : equipamentos_(equipamentos) {}
 
+  // Função que verifica se um equipamento específico está presente na FortalezaCodeMiner
   bool possui_equipamento(int equipamento) {
+    // Utiliza a função std::binary_search para procurar o equipamento na sequência ordenada de equipamentos_
     return std::binary_search(equipamentos_.begin(), equipamentos_.end(), equipamento);
   }
 
 private:
-  vector<int> equipamentos_;
+  vector<int> equipamentos_; // Armazena os equipamentos da FortalezaCodeMiner
 };
 
+// Classe Overfitting
 class Overfitting {
 public:
+  // Construtor que recebe um vetor de pontos fracos e o armazena na variável pontos_fracos_
   Overfitting(const vector<int>& pontos_fracos) : pontos_fracos_(pontos_fracos) {}
 
+  // Função que retorna os pontos fracos do Chefão Overfitting
   const vector<int>& pontos_fracos() const {
     return pontos_fracos_;
   }
 
 private:
-  vector<int> pontos_fracos_;
+  vector<int> pontos_fracos_; // Armazena os pontos fracos do Chefão Overfitting
 };
 
 int main() {
-  vector<int> pontos_fracos_chefao;
-  vector<int> equipamentos_fortaleza;
+  vector<int> pontos_fracos_chefao; // Vetor para armazenar os pontos fracos do Chefão Overfitting
+  vector<int> equipamentos_fortaleza; // Vetor para armazenar os equipamentos da FortalezaCodeMiner
 
   int n;
 
-  // Lê os pontos fracos do Chefão Overfitting.
+  // Lê os pontos fracos do Chefão Overfitting do usuário
   cin >> n;
   for (int i = 0; i < n; i++) {
     int ponto_fraco;
@@ -43,7 +50,7 @@ int main() {
     pontos_fracos_chefao.push_back(ponto_fraco);
   }
 
-  // Lê os equipamentos da Fortaleza dos CodeMiners.
+  // Lê os equipamentos da Fortaleza dos CodeMiners do usuário
   cin >> n;
   for (int i = 0; i < n; i++) {
     int equipamento;
@@ -51,10 +58,10 @@ int main() {
     equipamentos_fortaleza.push_back(equipamento);
   }
 
-  // Ordena a lista de equipamentos
+  // Ordena a lista de equipamentos da FortalezaCodeMiner em ordem crescente
   sort(equipamentos_fortaleza.begin(), equipamentos_fortaleza.end());
 
-  // Cria objetos dos tipos Overfitting e FortalezaCodeMiner
+  // Cria objetos das classes Overfitting e FortalezaCodeMiner com os dados lidos
   Overfitting chefao(pontos_fracos_chefao);
   FortalezaCodeMiner fortaleza(equipamentos_fortaleza);
 
@@ -67,11 +74,12 @@ int main() {
     }
   }
 
-  // Imprimir resultado da batalha
+  // Imprime o resultado da batalha (se houve vitória ou derrota)
   cout << (vitoria ? "Vencemos!" : "Perdemos!") << endl;
 
   return 0;
 }
+
 
 /*
 Descrição
