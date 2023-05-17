@@ -9,6 +9,7 @@ Premiação:
 - 2º lugar: R$1.000 no cartão Swile + Troféu de Segundo Lugar; 
 - 3º lugar: R$500 no cartão Swile + Troféu de Terceiro Lugar;
 - Até 20º Free: 3 meses de PRO.
+- Minha posção: 19
 
 ## Detalhes do bootcamp
 Vamos dar start em mais uma história?
